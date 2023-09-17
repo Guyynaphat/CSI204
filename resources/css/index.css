@@ -1,0 +1,22 @@
+.header{
+    background-color:gray;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+h4{
+
+}
+
+h1{
+    margin: auto;
+    float: right;
+    padding: 50px;
+}
+footer{
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
