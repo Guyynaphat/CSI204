@@ -5,18 +5,36 @@
     color: white;
 }
 
-h4{
-
+article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: white;
 }
 
-h1{
-    margin: auto;
-    float: right;
-    padding: 50px;
-}
-footer{
-    background-color: gray;
-    padding: 30px;
+footer {
+    background-color: rgb(169, 169, 169);
+    padding: 10px;
     text-align: center;
     color: white;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    height: 500px;
+    padding: 20px;
+    background-color: rgb(230, 229, 229);
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 8px;
 }
